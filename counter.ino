@@ -6,8 +6,8 @@
 #include "M5Atom.h"
 #include <EEPROM.h>
 
-const char *wifi_ssid = "";
-const char *wifi_pass = "";
+const char *wifi_ssid = ""; //wifiの名前
+const char *wifi_pass = ""; //wifiのパスワード
 
 
 uint8_t counter = 0; //1の位カウンター
